@@ -38,4 +38,13 @@ export async function main() {
   await customEval(code, { dcl: adaptionLayer.decentralandInterface })
 
   adaptionLayer.forceUpdate(0.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
+  adaptionLayer.forceUpdate(30.0)
 }

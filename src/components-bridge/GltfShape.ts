@@ -12,6 +12,8 @@ export function update(state: AdaptationLayerState, ecs6EntityId: EntityID, payl
       src: payload.src,
       invisibleMeshesCollisionMask: getColliderLayer(payload)
     })
+
+    console.log(`[SDK7toSDK6] GltfContainer.createOrReplace entityId=${ecs7Entity} src=${payload.src}`)
   } else {
     GltfContainer.deleteFrom(ecs7Entity)
   }
